@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paper collected by Wang</title>
+<title>arXiv Papers of Weakly Supervised Learning</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,8 @@ span#abs{
 }
 </style>
 </head>
-<body>
-
-</p></br></br><div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.22188.pdf' target='_blank'>https://arxiv.org/pdf/2512.22188.pdf</a></span>   <span><a href='https://github.com/lingxitong/HookMIL' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Xitong Ling, Minxi Ouyang, Xiaoxiao Li, Jiawen Li, Ying Chen, Yuxuan Sun, Xinrui Chen, Tian Guan, Xiaoping Liu, Yonghong He
+<body><div id='title' style='font-size:1.3em; font-weight:bold;'>arXiv Papers of Weakly Supervised Learning</div><br>
+<div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.22188.pdf' target='_blank'>https://arxiv.org/pdf/2512.22188.pdf</a></span>   <span><a href='https://github.com/lingxitong/HookMIL' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Xitong Ling, Minxi Ouyang, Xiaoxiao Li, Jiawen Li, Ying Chen, Yuxuan Sun, Xinrui Chen, Tian Guan, Xiaoping Liu, Yonghong He
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.22188">HookMIL: Revisiting Context Modeling in Multiple Instance Learning for Computational Pathology</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Multiple Instance Learning (MIL) has enabled weakly supervised analysis of whole-slide images (WSIs) in computational pathology. However, traditional MIL approaches often lose crucial contextual information, while transformer-based variants, though more expressive, suffer from quadratic complexity and redundant computations. To address these limitations, we propose HookMIL, a context-aware and computationally efficient MIL framework that leverages compact, learnable hook tokens for structured contextual aggregation. These tokens can be initialized from (i) key-patch visual features, (ii) text embeddings from vision-language pathology models, and (iii) spatially grounded features from spatial transcriptomics-vision models. This multimodal initialization enables Hook Tokens to incorporate rich textual and spatial priors, accelerating convergence and enhancing representation quality. During training, Hook tokens interact with instances through bidirectional attention with linear complexity. To further promote specialization, we introduce a Hook Diversity Loss that encourages each token to focus on distinct histopathological patterns. Additionally, a hook-to-hook communication mechanism refines contextual interactions while minimizing redundancy. Extensive experiments on four public pathology datasets demonstrate that HookMIL achieves state-of-the-art performance, with improved computational efficiency and interpretability. Codes are available at https://github.com/lingxitong/HookMIL.
 <div id='section'>Paperid: <span id='pid'>2, <a href='https://arxiv.org/pdf/2512.19990.pdf' target='_blank'>https://arxiv.org/pdf/2512.19990.pdf</a></span>   <span><a href='https://github.com/gpgpgp123/DDTM' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Peng Gao, Ke Li, Di Wang, Yongshan Zhu, Yiming Zhang, Xuemei Luo, Yifeng Wang
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.19990">A Dual-Branch Local-Global Framework for Cross-Resolution Land Cover Mapping</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Cross-resolution land cover mapping aims to produce high-resolution semantic predictions from coarse or low-resolution supervision, yet the severe resolution mismatch makes effective learning highly challenging. Existing weakly supervised approaches often struggle to align fine-grained spatial structures with coarse labels, leading to noisy supervision and degraded mapping accuracy. To tackle this problem, we propose DDTM, a dual-branch weakly supervised framework that explicitly decouples local semantic refinement from global contextual reasoning. Specifically, DDTM introduces a diffusion-based branch to progressively refine fine-scale local semantics under coarse supervision, while a transformer-based branch enforces long-range contextual consistency across large spatial extents. In addition, we design a pseudo-label confidence evaluation module to mitigate noise induced by cross-resolution inconsistencies and to selectively exploit reliable supervisory signals. Extensive experiments demonstrate that DDTM establishes a new state-of-the-art on the Chesapeake Bay benchmark, achieving 66.52\% mIoU and substantially outperforming prior weakly supervised methods. The code is available at https://github.com/gpgpgp123/DDTM.
